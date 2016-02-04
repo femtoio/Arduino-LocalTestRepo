@@ -1,0 +1,54 @@
+{
+  "packages": [
+    {
+      "name": "arduino-beta",
+      "maintainer": "Local Developer",
+      "websiteURL": "http://localhost:8080/",
+      "email": "you@example.com",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Local Test Package",
+          "architecture": "samd",
+          "version": "9.9.9-Hourly",
+          "category": "Arduino",
+          "url": "http://localhost:8080/package_samd-femtoio-build-1454094201.tar.bz2",
+          "archiveFileName": "package_samd-femtoio-build-1454094201.tar.bz2",
+          "checksum": "SHA-256:44f01bc8325b49f00b5c45517420909fc364778d43d5dd2230b836bf38aa6e26",
+          "size": "311534",
+          "boards": [
+            {
+              "name": "Atmel ATSAMD21E18A"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "arduino-localtestrepo",
+  "version": "1.0.0",
+  "description": "A node.js server to deploy your board pakages locally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femtoio/Arduino-LocalTestRepo.git"
+  },
+  "keywords": [
+    "Arduino",
+    "Custom",
+    "Board",
+    "Test"
+  ],
+  "author": "Femto.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/femtoio/Arduino-LocalTestRepo/issues"
+  },
+  "homepage": "https://github.com/femtoio/Arduino-LocalTestRepo#readme",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "serve-static": "^1.10.1"
+  }
+}
